@@ -1,13 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { Redirect } from 'expo-router'
 
-const HomeScreen = () => {
+const accounts = () => {
   return (
-    <Redirect href={'/allocations'} />
+    <View>
+      <Text>accounts</Text>
+    </View>
   )
 }
 
-export default HomeScreen
+export default accounts
 
 const styles = StyleSheet.create({})
